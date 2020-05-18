@@ -33,31 +33,18 @@ namespace kudvenkat
     {
       if (env.IsDevelopment())
       {
+        DeveloperExceptionPageOptions developerExceptionPageOptions = new DeveloperExceptionPageOptions()
+        {
+          SourceCodeLineCount = 10
+        };
         app.UseDeveloperExceptionPage();
       }
-
-      /*
-      app.UseRouting();
-
       
-      app.UseEndpoints(endpoints =>
-      {
-        endpoints.MapGet("/", async context =>
-              {
-            // await context.Response.WriteAsync(System.Diagnostics.Process.GetCurrentProcess().ProcessName);
-            await context.Response.WriteAsync(_config["MyKey"]);
-          });
-
-      });
-      */
-
-      FileServerOptions fileServerOptions = new FileServerOptions();
-      fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
-      fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("foo.html");
-      app.UseFileServer(fileServerOptions);
+      app.UseFileServer();
 
       app.Run(async (context) =>
       {
+        throw new Exception("Some error processing the request");
         await context.Response.WriteAsync("Hello world!");
       });
 
