@@ -33,19 +33,14 @@ namespace kudvenkat
     {
       if (env.IsDevelopment())
       {
-        DeveloperExceptionPageOptions developerExceptionPageOptions = new DeveloperExceptionPageOptions()
-        {
-          SourceCodeLineCount = 10
-        };
         app.UseDeveloperExceptionPage();
       }
-      
-      app.UseFileServer();
+
+      app.UseStaticFiles();
 
       app.Run(async (context) =>
       {
-        throw new Exception("Some error processing the request");
-        await context.Response.WriteAsync("Hello world!");
+        await context.Response.WriteAsync("Hosting environment: " + env.EnvironmentName);
       });
 
     }
