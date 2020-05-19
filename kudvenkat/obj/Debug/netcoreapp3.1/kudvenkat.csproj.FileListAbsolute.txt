@@ -7,6 +7,7 @@ C:\Users\Eric\source\repos\kudvenkat\kudvenkat\bin\Debug\netcoreapp3.1\kudvenkat
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\bin\Debug\netcoreapp3.1\kudvenkat.runtimeconfig.dev.json
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\bin\Debug\netcoreapp3.1\kudvenkat.dll
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\bin\Debug\netcoreapp3.1\kudvenkat.pdb
+C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.csprojAssemblyReference.cache
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.csproj.CoreCompileInputs.cache
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.AssemblyInfoInputs.cache
@@ -17,4 +18,3 @@ C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\staticweb
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.dll
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.pdb
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.genruntimeconfig.cache
-C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.csprojAssemblyReference.cache

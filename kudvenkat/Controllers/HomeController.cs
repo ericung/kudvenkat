@@ -9,7 +9,7 @@ namespace kudvenkat.Controllers
 {
   public class HomeController : Controller
   {
-    private IEmployeeRepository _employeeRepository;
+    private readonly IEmployeeRepository _employeeRepository;
 
     public HomeController(IEmployeeRepository employeeRepository)
     {
@@ -19,6 +19,12 @@ namespace kudvenkat.Controllers
     public string Index()
     {
       return _employeeRepository.GetEmployee(1).Name;
+    }
+
+    public ObjectResult Details()
+    {
+      Employee model = _employeeRepository.GetEmployee(1);
+      return new ObjectResult(model);
     }
   }
 }
