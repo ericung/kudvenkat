@@ -17,4 +17,3 @@ C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\staticweb
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.dll
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.pdb
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.genruntimeconfig.cache
-C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.csprojAssemblyReference.cache
