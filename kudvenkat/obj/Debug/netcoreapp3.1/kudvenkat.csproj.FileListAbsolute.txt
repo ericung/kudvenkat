@@ -29,3 +29,5 @@ C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\Razor\Vie
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.RazorTargetAssemblyInfo.cs
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.Views.pdb
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.csproj.CopyComplete
+C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs

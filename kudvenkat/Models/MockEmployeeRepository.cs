@@ -19,6 +19,12 @@ namespace kudvenkat.Models
       };
     }
 
+    public IEnumerable<Employee> GetAllEmployees()
+    {
+      return _employeeList;
+    }
+
+
     public Employee GetEmployee(int Id)
     {
       return _employeeList.FirstOrDefault(e => e.Id == Id);

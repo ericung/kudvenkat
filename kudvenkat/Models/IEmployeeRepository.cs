@@ -7,6 +7,8 @@ namespace kudvenkat.Models
 {
   public interface IEmployeeRepository
   {
+    IEnumerable<Employee> GetAllEmployees();
+
     Employee GetEmployee(int Id);
   }
 }
