@@ -23,18 +23,17 @@ namespace kudvenkat.Controllers
       return View(model);
     }
 
-    public ViewResult Details()
+    public ViewResult Details(int id)
     {
       HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
       {
-        Employee = _employeeRepository.GetEmployee(1),
+        Employee = _employeeRepository.GetEmployee(id),
         PageTitle = "Employee Details"
       };
-      Employee model = _employeeRepository.GetEmployee(1);
-      ViewBag.Employee = model;
-      ViewBag.PageTitle = "Employee Details";
-
+      
       return View(homeDetailsViewModel);
     }
+
+
   }
 }

@@ -4,9 +4,9 @@
   ViewBag.Title = "Employee Details";
 }
 
-<h1>@ViewBag.PageTitle</h1>
+<h1>@Model.PageTitle</h1>
 @{
-	var employee = ViewBag.Employee;
+	var employee = Model.Employee;
 }
 <div>
 	Name: @Model.Employee.Name

@@ -42,6 +42,7 @@ namespace kudvenkat
 
       app.UseStaticFiles();
 
+
       // 3.0 modification
       // https://stackoverflow.com/questions/57684093/using-usemvc-to-configure-mvc-is-not-supported-while-using-endpoint-routing
       app.UseRouting();
@@ -49,7 +50,7 @@ namespace kudvenkat
 
       app.UseEndpoints(endpoints =>
       {
-        endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");
+        endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
       });
     }
   }
