@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oQ7e6+jqyUCUHdKspNnXDRjjowzSeVpgQuFwImralZLkEeNQtn7nd3mifvG6pLWbStSHiBNoRw/8aJm8jVy2jg==",
+  "dgSpecHash": "CZ8KeXjKCXcs+fs0H/1CABwim0vALsk/ATfRr0B3rVgTzO/9r7VSTXqHZnRIcIJXFtK5TecJjjpoUATkvpePfg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Eric\\source\\repos\\kudvenkat\\kudvenkat\\kudvenkat.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Eric\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
