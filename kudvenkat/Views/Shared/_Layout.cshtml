@@ -21,7 +21,7 @@
 <body>
     <div class="container">
 		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-			<a class="navbar-brand" asp-controller="home" asp-action="index">
+			<a class="navbar-brand" href="@Url.Action("index", "home")">
 				<img src="~/images/employees.jpg" width="30" height="30">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -30,10 +30,10 @@
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" asp-controller="home" asp-action="index">List</a>
+						<a class="nav-link" href="@Url.Action("index", "home")">List</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" asp-controller="home" asp-action="create">Create</a>
+						<a class="nav-link" href="@Url.Action("create", "home")" asp-controller="home" asp-action="create">Create</a>
 					</li>
 				</ul>
 			</div>
