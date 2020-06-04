@@ -41,10 +41,15 @@ namespace kudvenkat.Controllers
     }
 
     [HttpPost]
-    public RedirectToActionResult Create(Employee employee)
+    public IActionResult Create(Employee employee)
     {
-      Employee newEmployee = _employeeRepository.Add(employee);
-      return RedirectToAction("Details", new { id = newEmployee.Id });
+      if (ModelState.IsValid)
+      {
+        Employee newEmployee = _employeeRepository.Add(employee);
+        return RedirectToAction("Details", new { id = newEmployee.Id });
+      }
+
+      return View();
     }
   }
 }
