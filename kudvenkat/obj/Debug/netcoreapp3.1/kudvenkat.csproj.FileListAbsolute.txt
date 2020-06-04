@@ -9,8 +9,6 @@ C:\Users\Eric\source\repos\kudvenkat\kudvenkat\bin\Debug\netcoreapp3.1\kudvenkat
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\bin\Debug\netcoreapp3.1\kudvenkat.pdb
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\bin\Debug\netcoreapp3.1\kudvenkat.Views.dll
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\bin\Debug\netcoreapp3.1\kudvenkat.Views.pdb
-C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.csproj.CoreCompileInputs.cache
-C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.RazorAssemblyInfo.cache
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.RazorAssemblyInfo.cs
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.AssemblyInfoInputs.cache
