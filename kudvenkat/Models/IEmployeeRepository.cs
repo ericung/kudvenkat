@@ -12,5 +12,9 @@ namespace kudvenkat.Models
     Employee GetEmployee(int Id);
 
     Employee Add(Employee employee);
+
+    Employee Update(Employee employeeChanges);
+
+    Employee Delete(int id);
   }
 }
