@@ -1,5 +1,0 @@
-C:\Users\Eric\source\repos\kudvenkat\EmployeeManagement.DataAccess\bin\Debug\netstandard2.0\EmployeeManagement.DataAccess.deps.json
-C:\Users\Eric\source\repos\kudvenkat\EmployeeManagement.DataAccess\bin\Debug\netstandard2.0\EmployeeManagement.DataAccess.dll
-C:\Users\Eric\source\repos\kudvenkat\EmployeeManagement.DataAccess\obj\Debug\netstandard2.0\EmployeeManagement.DataAccess.csprojAssemblyReference.cache
-C:\Users\Eric\source\repos\kudvenkat\EmployeeManagement.DataAccess\obj\Debug\netstandard2.0\EmployeeManagement.DataAccess.AssemblyInfoInputs.cache
-C:\Users\Eric\source\repos\kudvenkat\EmployeeManagement.DataAccess\obj\Debug\netstandard2.0\EmployeeManagement.DataAccess.AssemblyInfo.cs
