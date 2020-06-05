@@ -56,9 +56,16 @@ namespace kudvenkat.Controllers
         string uniqueFileName = null;
         if (model.Photo != null)
         {
+          // The image must be uploaded to the images folder in wwwroot
+          // To get the path of the wwwroot folder we are using the inject
+          // HostingEnvironment service provided by ASP.NET Core
           string uploadsFolder = Path.Combine(_hostingEnvironment.WebRootPath, "images");
-          uniqueFileName = Guid.NewGuid().ToString() + "_" + model.Photo.FileName;
+          // To make sure the file name is unique we are appending a new
+          // GUID value and and an underscore to the file name
+          uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(model.Photo.FileName);
           string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+          // Use CopyTo() method provided by IFormFile interface to
+          // copy the file to wwwroot/images folder
           model.Photo.CopyTo(new FileStream(filePath, FileMode.Create));
         }
 
@@ -71,7 +78,7 @@ namespace kudvenkat.Controllers
         };
 
         _employeeRepository.Add(newEmployee);
-        RedirectToAction("details", new { id = newEmployee.Id });
+        return RedirectToAction("details", "home", new { id = newEmployee.Id });
       }
 
       return View();
