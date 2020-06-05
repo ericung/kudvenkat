@@ -9,7 +9,7 @@ using kudvenkat.Models;
 namespace kudvenkat.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20200605163047_InitialCreate")]
+    [Migration("20200605184410_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -42,6 +42,22 @@ namespace kudvenkat.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Employees");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Department = 2,
+                            Email = "mary@pragimtech.com",
+                            Name = "Mary"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Department = 1,
+                            Email = "john@pragimtech.com",
+                            Name = "John"
+                        });
                 });
 #pragma warning restore 612, 618
         }

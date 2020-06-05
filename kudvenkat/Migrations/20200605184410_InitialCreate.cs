@@ -20,6 +20,16 @@ namespace kudvenkat.Migrations
                 {
                     table.PrimaryKey("PK_Employees", x => x.Id);
                 });
+
+            migrationBuilder.InsertData(
+                table: "Employees",
+                columns: new[] { "Id", "Department", "Email", "Name" },
+                values: new object[] { 1, 2, "mary@pragimtech.com", "Mary" });
+
+            migrationBuilder.InsertData(
+                table: "Employees",
+                columns: new[] { "Id", "Department", "Email", "Name" },
+                values: new object[] { 2, 1, "john@pragimtech.com", "John" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

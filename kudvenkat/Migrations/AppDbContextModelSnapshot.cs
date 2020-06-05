@@ -40,6 +40,22 @@ namespace kudvenkat.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Employees");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Department = 2,
+                            Email = "mary@pragimtech.com",
+                            Name = "Mary"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Department = 1,
+                            Email = "john@pragimtech.com",
+                            Name = "John"
+                        });
                 });
 #pragma warning restore 612, 618
         }
