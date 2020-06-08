@@ -41,7 +41,12 @@ namespace kudvenkat
     {
       if (env.IsDevelopment())
       {
-        app.UseDeveloperExceptionPage();
+        // app.UseDeveloperExceptionPage();
+        app.UseStatusCodePagesWithRedirects("/Error/{0}");
+      }
+      else
+      {
+        app.UseStatusCodePagesWithRedirects("/Error/{0}");
       }
 
       app.UseStaticFiles();
