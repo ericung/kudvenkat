@@ -30,13 +30,23 @@ namespace kudvenkat.Controllers
       return View(model);
     }
 
-    public ViewResult Details(int? id)
+    public ViewResult Details(int id)
     {
+      Employee employee = _employeeRepository.GetEmployee(id);
+
+      if (employee == null)
+      {
+        Response.StatusCode = 404;
+        return View("EmployeeNotFound", id);
+      }
+
       HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
       {
-        Employee = _employeeRepository.GetEmployee(id ?? 1),
+        Employee = employee,
         PageTitle = "Employee Details"
       };
+
+      
 
       return View(homeDetailsViewModel);
     }

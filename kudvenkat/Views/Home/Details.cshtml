@@ -1,8 +1,8 @@
 ﻿@model HomeDetailsViewModel
 
 @{
-  ViewBag.Title = "Employee Details";
-  var photoPath = "~/images/" + Model.Employee.PhotoPath;
+	ViewBag.Title = "Employee Details";
+	var photoPath = "~/images/" + (Model.Employee.PhotoPath ?? "noimage.jpg");
 }
 
 <div class="row justify-content-center m-3">
