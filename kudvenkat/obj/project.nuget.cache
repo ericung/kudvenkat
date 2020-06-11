@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "W3JGSjfVOYcIW0969gbqSUGjtzQhbAzj5l66sUcgY4Qx/kn5vfzF8maZq+Q9F7c3pVdnhb1aFGiB6ViGsnbiRQ==",
+  "dgSpecHash": "UIkwXd1NEUdt824B9pCUFRPOx8x6aENTZSxGEQkwnXiSb00kz7SgRKEWNka+Pi5ygcdhGpSv9ApKkDp65Vmmfg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Eric\\source\\repos\\kudvenkat\\kudvenkat\\kudvenkat.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Eric\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.4\\microsoft.aspnetcore.cryptography.internal.3.1.4.nupkg.sha512",
+    "C:\\Users\\Eric\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.4\\microsoft.aspnetcore.cryptography.keyderivation.3.1.4.nupkg.sha512",
+    "C:\\Users\\Eric\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.4\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.4.nupkg.sha512",
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -22,6 +25,8 @@
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.4\\microsoft.extensions.configuration.binder.3.1.4.nupkg.sha512",
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.4\\microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.4\\microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\Eric\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.4\\microsoft.extensions.identity.core.3.1.4.nupkg.sha512",
+    "C:\\Users\\Eric\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.4\\microsoft.extensions.identity.stores.3.1.4.nupkg.sha512",
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.extensions.logging\\3.1.4\\microsoft.extensions.logging.3.1.4.nupkg.sha512",
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.extensions.options\\3.1.4\\microsoft.extensions.options.3.1.4.nupkg.sha512",

@@ -6,6 +6,7 @@ using kudvenkat.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -31,6 +32,8 @@ namespace kudvenkat
     {
       services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(_config.GetConnectionString("EmployeeDBConnection")));
 
+      services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
+
       services.AddMvc().AddXmlSerializerFormatters() ;
       // services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
       services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
@@ -54,6 +57,7 @@ namespace kudvenkat
 
       app.UseStaticFiles();
 
+      app.UseAuthentication();
 
       // 3.0 modification
       // https://stackoverflow.com/questions/57684093/using-usemvc-to-configure-mvc-is-not-supported-while-using-endpoint-routing
