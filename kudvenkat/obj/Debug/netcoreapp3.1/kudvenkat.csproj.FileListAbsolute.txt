@@ -78,3 +78,4 @@ C:\Users\Eric\source\repos\kudvenkat\kudvenkat\bin\Debug\netcoreapp3.1\Microsoft
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.csproj.CoreCompileInputs.cache
 C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\kudvenkat.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Eric\source\repos\kudvenkat\kudvenkat\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
