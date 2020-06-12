@@ -19,6 +19,18 @@ namespace kudvenkat.Controllers
       this.signInManager = signInManager;
     }
 
+    public AccountController(SignInManager<IdentityUser> signInManager)
+    {
+      this.signInManager = signInManager;
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Logout()
+    {
+      await signInManager.SignOutAsync();
+      return RedirectToAction("index", "home");
+    }
+
     [HttpGet]
     public IActionResult Register()
     {

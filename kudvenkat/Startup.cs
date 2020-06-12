@@ -34,6 +34,13 @@ namespace kudvenkat
 
       services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
 
+      services.Configure<IdentityOptions>(options =>
+      {
+        options.Password.RequiredLength = 10;
+        options.Password.RequiredUniqueChars = 3;
+        options.Password.RequireNonAlphanumeric = false;
+      });
+
       services.AddMvc().AddXmlSerializerFormatters() ;
       // services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
       services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
