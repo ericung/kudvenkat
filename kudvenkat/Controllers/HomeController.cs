@@ -1,5 +1,6 @@
 ﻿using kudvenkat.Models;
 using kudvenkat.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace kudvenkat.Controllers
 {
+  [Authorize]
   public class HomeController : Controller
   {
     private readonly IEmployeeRepository _employeeRepository;
@@ -24,12 +26,14 @@ namespace kudvenkat.Controllers
       _hostingEnvironment = hostingEnvironment;
     }
 
+    [AllowAnonymous]
     public ViewResult Index()
     {
       var model = _employeeRepository.GetAllEmployees();
       return View(model);
     }
 
+    [AllowAnonymous]
     public ViewResult Details(int id)
     {
       Employee employee = _employeeRepository.GetEmployee(id);
